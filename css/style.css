@@ -73,6 +73,7 @@ footer {
 	letter-spacing: 2px;
 	padding: 50px 0px 50px 0;
 	text-align: center;
+	clear:both;
 }
 
 h1 {
@@ -127,8 +128,8 @@ header img {
 
 .gallery {
 	width: 90%;
-	margin:0 auto;
-	height: 850px;
+	margin:100px auto;
+	clear:both
 }
 
 .gallery h2 {
@@ -235,7 +236,7 @@ header img {
 }
 
 .about {
-	margin: 40px 100px;
+	margin: 40px 80px;
 	height: 600px;
 }
 
@@ -257,7 +258,7 @@ padding: 14px 0;
 }
 
 .gallery {
-	height: 1600px;
+	margin-bottom: 80px;
 }
 
 .gallery h2 {
@@ -354,7 +355,7 @@ padding: 10px 0;
 }
 
 .gallery {
-	height: 1000px;
+	margin:80px auto;
 }
 
 .search h2 {
