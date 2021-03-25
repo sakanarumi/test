@@ -4,13 +4,17 @@
 <meta charset="UTF-8">
 <meta name="description" content="nosaunanolife">
 <meta name="viewport" content="width=device-width">
-<title>NSNL</title>
+<title>NSNL.</title>
 <link rel="stylesheet" media="all" href="css/style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-<script src="js/script.js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/jquery_pc.js"></script>
+<script src="js/jquery_tab.js"></script>
+<script src="js/jquery_sp.js"></script>
 </head>
+
 
 <body>
 
@@ -18,9 +22,30 @@
 <header>
 	<div class="container">
 		<h1 class="logo">NSNL.</h1>
-		<img src="images/mv.jpg" alt="">
+		<div id="slide-pc" class="pc">
+			<ul>
+				<li><img src="images/mv_pc_01.jpg" alt=""></li>
+				<li><img src="images/mv_pc_02.jpg" alt=""></li>
+				<li><img src="images/mv_pc_03.jpg" alt=""></li>
+			</ul>
+		</div>
+		<div id="slide-tab" class="tab">
+			<ul>
+				<li><img src="images/mv_sp_01.jpg" alt=""></li>
+				<li><img src="images/mv_sp_02.jpg" alt=""></li>
+				<li><img src="images/mv_sp_03.jpg" alt=""></li>
+			</ul>
+		</div>
+		<div id="slide-sp" class="sp">
+			<ul>
+				<li><img src="images/mv_sp_01.jpg" alt=""></li>
+				<li><img src="images/mv_sp_02.jpg" alt=""></li>
+				<li><img src="images/mv_sp_03.jpg" alt=""></li>
+			</ul>
+		</div>
 	</div>
 </header>
+
 
 <!-- about -->
 <div class="about">
@@ -36,8 +61,8 @@
 			</p>
 		</div>
 
-		<div class ="about-right">
-			<img src="images/hakusanyu.jpg" alt="">
+		<div class ="about-right js-fadein">
+			<img src="images/saunachan.jpg" alt="">
 		</div>
 
 	</div>
@@ -47,48 +72,46 @@
 
 
 
-<!-- SERVICE
-<section id="sec03">
-	<div class="inner">
-		<ul class="col3">
-			<li>
-				<h2>SERVICE</h2>
-				<img src="images/circleImg01.png" width="288" height="288" alt="">
-				<p>科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいう。</p>
-			</li>
-			<li>
-				<h2>MESSAGE</h2>
-				<img src="images/circleImg02.png" width="288" height="288" alt="">
-				<p>日本歴史の科学的研究ということがしきりに叫ばれている。科学的研究というのが近代史学の学問的方法による研究という意義であるならば意義であるならば。</p>
-			</li>
-			<li>
-				<h2>STORY</h2>
-				<img src="images/circleImg03.png" width="288" height="288" alt="">
-				<p>科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいう。</p>
-			</li>
+
+<div class="gallery">
+	<div class="container">
+		<h2>GALLERY</h2>
+		<ul class="sauna js-fadein">
+			<li><img src="images/img_01.jpg" alt=""></li>
+			<li><img src="images/img_02.jpg" alt=""></li>
+			<li><img src="images/img_03.jpg" alt=""></li>
+			<li><img src="images/img_04.jpg" alt=""></li>
+			<li><img src="images/img_05.jpg" alt=""></li>
+			<li><img src="images/img_06.jpg" alt=""></li>
+			<li><img src="images/img_07.jpg" alt=""></li>
+			<li><img src="images/img_08.jpg" alt=""></li>
 		</ul>
-	</div>
-</section>
+	</div>	
+</div>
 
 
 
-<section id="sec04">
-	<div class="inner">
-		<ul class="col2">
-			<li>
-				<h2>STORY</h2>
-				<p>科学的研究というのが近代史学の学問的方法によるちかごろ世間で日本歴史の科学的研究ということがしきりに叫ばれている。研究という意義であるならば、研究という意義であるならばこれは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいうには及ばないはずである。</p>
-			</li>
-		</ul>
-	</div>
-</section>
-<!-- // STORY -->
+<div class="search">
+	<div class="container">
+		<h2>SEARCH</h2>
+		<p>お近くのサウナをぜひ探してみてください</p>
+		<div class="btn">
+			<a href="https://sauna-ikitai.com/" target="_blank">サウナをさがす</a>
+		</div>
+	</div>	
+</div>
+
 
 
 
 <footer>
-	Copyright(c) 2021 sakanarumi. All Rights Reserved. 
+	<div class="container">
+		<p class="pc">Copyright(c) 2021 narumi saka. All Rights Reserved.</p>
+		<p class="tab">Copyright(c) 2021 narumi saka. All Rights Reserved.</p>
+		<p class="sp">Copyright(c) 2021 narumi saka.<br>All Rights Reserved.</p>
+	</div>	
 </footer>
 
 </body>
+
 </html>
