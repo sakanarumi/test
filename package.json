@@ -1,0 +1,14 @@
+{
+  "name": "nsnl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sakanarumi/test.git",
+  "author": "sakanarumi",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.32.8"
+  },
+  "scripts": {
+    "scss": "yarn sass --watch --no-source-map --style=compressed src/scss/style.scss css/style.css"
+  }
+}

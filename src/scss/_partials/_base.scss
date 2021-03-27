@@ -1,0 +1,30 @@
+/*
+ * base
+ */
+
+body {
+  font: 14px/1.9 "Noto Sans JP", 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3",
+    "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+  color: #000;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+
+  &:active,
+  &:focus {
+    outline: 0;
+  }
+}
+
+input {
+  &:active,
+  &:focus {
+    outline: 0;
+  }
+}
